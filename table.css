@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table,tr,th,td {
+    border: 1px solid darkblue;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 12px;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #F1EFF6;
+}
+.btn {
+    height: 30px;
+    width: 80px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+    margin: 5px;
+    font-size: 9px;
+}
+.pill {
+    background-color: #61CE70;
+    color: #00160B;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    padding: 8px;
+    width: 75px;
+    height: 30px;
+}
+i {
+    font-size: 40px;
+    padding: 10px;
+}
+.box {
+    font-size: 10px;
+    white-space: nowrap;
+    text-align: justify;
+}
+.pol {
+    text-align: justify;
+    padding: 2px;
+    font-size: 10px;
+}
